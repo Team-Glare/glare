@@ -40,4 +40,3 @@ jobs:
       uses: codecov/codecov-action@v2.0.3
       with:
         token: e2c897fe-e8bd-4eb9-97c1-1f46da795df5
-        files: ./tests/cov.xml
