@@ -5,7 +5,7 @@ import os
 # This is so we can import any subdirectories of that root directory - i.e. glare/utility.py
 sys.path.append(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 
-from glare.utility import inc, dec
+from glare.utility.py import inc, dec
 
 def test_inc():
     num = 0
