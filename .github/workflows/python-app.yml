@@ -33,7 +33,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest --cov=glare tests/
+        pytest --cov=glare ./glare/tests/
     - name: Codecov
       # You may pin to the exact commit or the version.
       # uses: codecov/codecov-action@5a8bb4701eca7ba3673f21664b887f652c58d0a3
