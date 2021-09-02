@@ -1,0 +1,16 @@
+py==1.8.1
+pycodestyle==2.5.0
+pycparser==2.19
+pydocstyle==4.0.1
+pyOpenSSL==19.1.0
+pyparsing==2.4.6
+pytest==5.3.5
+pytest-openfiles==0.4.0
+python-dateutil==2.8.1
+python-language-server==0.31.7
+pytz==2019.3
+PyYAML==5.3
+pyzmq==18.1.1
+scipy==1.4.1
+six==1.14.0
+sympy==1.5.1
